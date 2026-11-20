@@ -303,4 +303,5 @@ Write-Note "CS2: $(if ($LaunchOptions.CS2) { $LaunchOptions.CS2 } else { '(none)
 try { Set-Clipboard -Value $LaunchOptions.TF2; Write-Note '(TF2 options copied to the clipboard)' } catch { }
 
 if (Test-Path $BackupRoot) { Write-Step "Replaced files were backed up to $BackupRoot" }
+Write-Step 'Next: driver/Windows settings - see pc\README.md and run pc\apply-pc-settings.ps1 (elevated, -WhatIf first)'
 Write-Host "`nDone." -ForegroundColor Green

@@ -1,0 +1,276 @@
+{
+ "captured": "2026-11-20",
+ "driver": "617.14 (Windows 32.0.16.1714)",
+ "gpu": "RTX 3080 Ti",
+ "global_base_profile_user_set": [
+  {
+   "id": "0x005A375C",
+   "name": "Vertical Sync Tear Control",
+   "value_hex": "0x96861077",
+   "desc": "DISABLE (0x96861077)",
+   "driver_default_hex": "0x96861077"
+  },
+  {
+   "id": "0x0064B541",
+   "name": "Preferred refresh rate",
+   "value_hex": "0x00000001",
+   "desc": "HIGHEST_AVAILABLE (0x00000001)",
+   "driver_default_hex": "0x00000000"
+  },
+  {
+   "id": "0x007BA09E",
+   "name": "Maximum pre-rendered frames",
+   "value_hex": "0x00000001",
+   "desc": "1 frame(s)",
+   "driver_default_hex": "0x00000000"
+  },
+  {
+   "id": "0x00A879CF",
+   "name": "Vertical Sync",
+   "value_hex": "0x47814940",
+   "desc": "FORCEON (0x47814940)",
+   "driver_default_hex": "0x60925292"
+  },
+  {
+   "id": "0x00AC8497",
+   "name": "Shader disk cache maximum size",
+   "value_hex": "0x00002800",
+   "desc": "10GB (0x00002800)",
+   "driver_default_hex": "0x00004000"
+  },
+  {
+   "id": "0x101AE763",
+   "name": "Flag to control smooth AFR behavior",
+   "value_hex": "0x00000000",
+   "desc": "0x00000000",
+   "driver_default_hex": "0x00000000"
+  },
+  {
+   "id": "0x1057EB71",
+   "name": "Power management mode",
+   "value_hex": "0x00000001",
+   "desc": "PREFER_MAX (0x00000001)",
+   "driver_default_hex": "0x00000005"
+  },
+  {
+   "id": "0x1094F1F7",
+   "name": "VRR requested state",
+   "value_hex": "0x00000002",
+   "desc": "FULLSCREEN_AND_WINDOWED (0x00000002)",
+   "driver_default_hex": "0x00000001"
+  },
+  {
+   "id": "0x10A879CF",
+   "name": "G-SYNC",
+   "value_hex": "0x00000000",
+   "desc": "ALLOW (0x00000000)",
+   "driver_default_hex": "0x00000000"
+  },
+  {
+   "id": "0x1194F158",
+   "name": "Enable G-SYNC globally",
+   "value_hex": "0x00000002",
+   "desc": "FULLSCREEN_AND_WINDOWED (0x00000002)",
+   "driver_default_hex": "0x00000001"
+  },
+  {
+   "id": "0x20C1221E",
+   "name": "Threaded optimization",
+   "value_hex": "0x00000001",
+   "desc": "ON (0x00000001)",
+   "driver_default_hex": "0x00000000"
+  }
+ ],
+ "cs2_profile": {
+  "name": "Counter-strike 2",
+  "apps": [
+   "csgos2.exe",
+   "cs2.exe"
+  ],
+  "user_set": [
+   {
+    "id": "0x10308298",
+    "name": "Override DLSSG mode",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x1035DB89",
+    "name": "NVIDIA Predefined Ansel Usage",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x104D6667",
+    "name": "Override DLSSG multi-frame count",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x10562D0F",
+    "name": "Override maximum DLSSG dynamic multi frame count",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x10AFB768",
+    "name": "Override DLSS-SR performance mode",
+    "value_hex": "0x00000003",
+    "desc": "0x00000003"
+   },
+   {
+    "id": "0x10BD9423",
+    "name": "Override DLSS-RR performance mode",
+    "value_hex": "0x00000003",
+    "desc": "0x00000003"
+   },
+   {
+    "id": "0x10C7D4A2",
+    "name": "Override scaling ratio for DLSS-RR",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x10CF4125",
+    "name": "Override DLSSG Target Frame Rate",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x10E41DF1",
+    "name": "Override DLSS-FG preset",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x10E41DF3",
+    "name": "Override DLSS-SR presets",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x10E41DF5",
+    "name": "Override scaling ratio for DLSS-SR",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x10E41DF7",
+    "name": "Override DLSS-RR preset",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x10E41E01",
+    "name": "Enable DLSS-SR override",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x10E41E02",
+    "name": "Enable DLSS-RR override",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x10E41E03",
+    "name": "Enable DLSS-FG override",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   },
+   {
+    "id": "0x10E41E06",
+    "name": "Enable Streamline override",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   }
+  ]
+ },
+ "tf2_profile": {
+  "name": "Team Fortress 2",
+  "apps": [
+   "team fortress 2/hl2.exe",
+   "team fortress 2/tf.exe",
+   "team fortress 2/tf_win64.exe"
+  ],
+  "user_set": [
+   {
+    "id": "0x10E41E06",
+    "name": "Enable Streamline override",
+    "value_hex": "0x00000000",
+    "desc": "0x00000000"
+   }
+  ]
+ },
+ "cs2_effective": {
+  "vsync": {
+   "value": "0x47814940",
+   "desc": "FORCEON (0x47814940)",
+   "from_profile_user_set": true,
+   "location": 1
+  },
+  "vsync_tear_control": {
+   "value": "0x96861077",
+   "desc": "DISABLE (0x96861077)",
+   "from_profile_user_set": true,
+   "location": 1
+  },
+  "prerender_limit": {
+   "value": "0x00000001",
+   "desc": "1 frame(s)",
+   "from_profile_user_set": true,
+   "location": 1
+  },
+  "ull_cpl_state": null,
+  "ull_enabled": null,
+  "threaded_optimization": {
+   "value": "0x00000001",
+   "desc": "ON (0x00000001)",
+   "from_profile_user_set": true,
+   "location": 1
+  },
+  "power_mode": {
+   "value": "0x00000001",
+   "desc": "PREFER_MAX (0x00000001)",
+   "from_profile_user_set": true,
+   "location": 1
+  },
+  "max_frame_rate": null,
+  "bg_max_frame_rate": null,
+  "frl_for_nvcpl": null,
+  "shader_cache": null,
+  "shader_cache_size": {
+   "value": "0x00002800",
+   "desc": "10GB (0x00002800)",
+   "from_profile_user_set": true,
+   "location": 1
+  },
+  "texture_quality": null,
+  "gsync_app": {
+   "value": "0x00000000",
+   "desc": "ALLOW (0x00000000)",
+   "from_profile_user_set": true,
+   "location": 1
+  },
+  "gsync_app_request": null,
+  "gsync_global": {
+   "value": "0x00000002",
+   "desc": "FULLSCREEN_AND_WINDOWED (0x00000002)",
+   "from_profile_user_set": true,
+   "location": 1
+  },
+  "vrr_request_state": {
+   "value": "0x00000002",
+   "desc": "FULLSCREEN_AND_WINDOWED (0x00000002)",
+   "from_profile_user_set": true,
+   "location": 1
+  },
+  "preferred_refresh": {
+   "value": "0x00000001",
+   "desc": "HIGHEST_AVAILABLE (0x00000001)",
+   "from_profile_user_set": true,
+   "location": 1
+  },
+  "vk_ogl_present": null
+ }
+}

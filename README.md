@@ -88,18 +88,14 @@ over the TF2 install folder.
   (loadout preferences).
 - Launch options: none.
 
+### PC settings (`pc/`)
+
+NVIDIA driver, Windows, display, monitor and Steam client settings that affect both games, plus a review of what's
+worth A/B testing. See [pc/README.md](pc/README.md). Run `pc\apply-pc-settings.ps1` separately from an elevated
+PowerShell, because it changes system settings. Use `-WhatIf` first to preview.
+
 ## Not included (on purpose)
 
-- **NVIDIA driver settings.** These live in the global profile and the script doesn't touch them. Set them by hand in
-  NVIDIA Control Panel:
-  - G-SYNC on.
-  - V-Sync forced on globally, with V-Sync off in-game.
-  - Low Latency Mode On.
-  - Power management: Prefer maximum performance.
-
-  TF2 uses NVIDIA's built-in "Team Fortress 2" profile, which inherits these. The ~259 fps cap at 280 Hz is the G-SYNC
-  limiter, and that's intended. CS2 uses the same global settings. The monitor's Adaptive-Sync and ELMB Sync are set
-  in the monitor's own menu.
 - Generated or cache files: `*.sound.cache`, `user.scr`, `trustedlaunch.cfg`, `*_lastclouded`, demos, and the old
   2022 CS:GO `config.cfg`.
 - The Overwolf game-state integration cfg in the CS2 folder. Overwolf creates it again when it's installed.

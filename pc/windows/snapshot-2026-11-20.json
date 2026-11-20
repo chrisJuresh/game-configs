@@ -1,0 +1,64 @@
+{
+  "captured": "2026-11-20",
+  "note": "Read-only snapshot of Windows settings that affect TF2/CS2. Missing values mean the Windows default applies.",
+  "hardware": {
+    "cpu": "AMD Ryzen 7 5800X3D",
+    "ram": "32 GB (2x16 GB) DDR4 running at 3200 MT/s (XMP/DOCP profile active)",
+    "gpu": "NVIDIA GeForce RTX 3080 Ti 12 GB, driver 617.14 (32.0.16.1714, dated 2026-09-17)",
+    "os": "Windows 11 Pro, build 26300"
+  },
+  "displays": {
+    "VG259QM": {
+      "connection": "DisplayPort",
+      "mode": "1920x1080 @ 279.857 Hz",
+      "desktop_orientation_when_not_gaming": "portrait (rotated 270), secondary display",
+      "orientation_when_gaming": "landscape (rotated by hand before playing)",
+      "windows_scaling_in_active_layout": "STRETCHED (NVIDIA 'Full-screen') - this is what makes CS2 4:3 stretched",
+      "hdr": "supported, off (SDR, RGB full range)"
+    },
+    "DELL S3220DGF": {
+      "connection": "DisplayPort",
+      "mode": "2560x1440 @ 164.056 Hz",
+      "role": "primary display",
+      "hdr": "supported, off"
+    }
+  },
+  "graphics": {
+    "hardware_accelerated_gpu_scheduling": "on (HwSchMode unset = driver default, dxdiag: Enabled:True)",
+    "multiplane_overlay_mpo": "not supported by the driver on this setup (dxdiag MPO Caps: Not Supported)",
+    "windows_optimizations_for_windowed_games_and_vrr": "Windows defaults (DirectXUserGlobalSettings unset)",
+    "per_game_gpu_preference": "none for TF2/CS2 (single GPU)",
+    "fullscreen_optimizations": "Windows default (GameDVR_FSEBehaviorMode 0, no per-exe compatibility flags on hl2/tf_win64/cs2)"
+  },
+  "gaming": {
+    "game_mode": "on (Windows default, AutoGameModeEnabled unset)",
+    "xbox_game_bar_captures": "GameDVR_Enabled 1, background recording off (HistoricalCaptureEnabled unset)",
+    "multimedia_system_profile": "SystemResponsiveness 20, NetworkThrottlingIndex 10 (defaults)",
+    "games_task": "GPU Priority 8, Priority 2, Scheduling Category Medium (defaults)",
+    "Win32PrioritySeparation": "2 (default)"
+  },
+  "power": {
+    "plan": "High performance (8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c)",
+    "processor_min_max_state_ac": "100% / 100%",
+    "usb_selective_suspend_ac": "enabled",
+    "pcie_link_state_power_management_ac": "off"
+  },
+  "mouse": {
+    "enhance_pointer_precision": "off (MouseSpeed 0, thresholds 0/0)",
+    "pointer_speed": "10 of 20 (default)"
+  },
+  "security": {
+    "memory_integrity_hvci": "on (kept on deliberately)",
+    "vbs": "running"
+  },
+  "desktop": {
+    "transparency_effects": "on (default)"
+  },
+  "background_apps_seen_while_idle": ["Discord", "NVIDIA App overlay (NVIDIA Overlay / nvcontainer)", "Steam"],
+  "steam_client": {
+    "game_recording": "Record in background (BackgroundRecordMode 1), default bitrate preset, instant clip key \\",
+    "in_game_overlay": "on",
+    "tf2_launch_options": "-novid -nojoy -nosteamcontroller -nohltv -particles 1",
+    "cs2_launch_options": "(none)"
+  }
+}
