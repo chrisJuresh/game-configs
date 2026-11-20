@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	// Solid fill for the health progress bar (#users/custom/resource/ui/hudplayerhealth.res)
+	// Same as the stock hud/health_color but with no base texture, so it draws a plain block tinted by fgcolor
+	// Delete this file to get the stock health cross back
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+}
