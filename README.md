@@ -94,10 +94,15 @@ NVIDIA driver, Windows, display, monitor and Steam client settings that affect b
 worth A/B testing. See [pc/README.md](pc/README.md). Run `pc\apply-pc-settings.ps1` separately from an elevated
 PowerShell, because it changes system settings. Use `-WhatIf` first to preview.
 
+### Archive (`archive/`)
+
+- `archive/csgo-2022/config.cfg`: my last CS:GO config, from October 2022, with binds, crosshair and sensitivity. CS2
+  doesn't read it, and restore.ps1 doesn't copy it. It's kept for reference. In CS:GO it was
+  `Steam/userdata/<id>/730/remote/cfg/config.cfg`.
+
 ## Not included (on purpose)
 
-- Generated or cache files: `*.sound.cache`, `user.scr`, `trustedlaunch.cfg`, `*_lastclouded`, demos, and the old
-  2022 CS:GO `config.cfg`.
+- Generated or cache files: `*.sound.cache`, `user.scr`, `trustedlaunch.cfg`, `*_lastclouded`, demos.
 - The Overwolf game-state integration cfg in the CS2 folder. Overwolf creates it again when it's installed.
 
 ## Updating this backup
